@@ -5,7 +5,7 @@ import {
   decreaseQuantityInCart,
   removeFormCart,
   addToCart,
-} from "../app/ProductSlice";
+} from "../App/ProductSlice";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
