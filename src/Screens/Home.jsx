@@ -8,7 +8,6 @@ const Home = () => {
       <Navbar />
       <Carousal />
       <ProductGrid />
-      
     </div>
   );
 };
