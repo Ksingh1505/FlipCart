@@ -147,6 +147,7 @@ const Cart = () => {
                 <span className="text-indigo-600">${subtotal}</span>
               </div>
 
+              
               <button className="w-full mt-5 bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition">
                 Checkout
               </button>
