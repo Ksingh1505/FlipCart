@@ -3,7 +3,6 @@ import SearchBar from "./Searchbar";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../Store/ThemeProvider";
 
-
 const Navbar = ({ hideSearchBar = false }) => {
   const { theme, setTheme } = useContext(ThemeContext);
 
