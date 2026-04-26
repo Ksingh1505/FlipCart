@@ -6,6 +6,7 @@ import Wishlist from "../Icons/Wishlist";
 import UseIsProductInWishlist from "../Hooks/UseIsProductInWishlist";
 import UseWishlistproduct from "../Hooks/UseWishlistproduct";
 
+
 const ProductCard = ({ data }) => {
   const { theme } = useContext(ThemeContext);
   const { title, price, discountPercentage, rating, brand, thumbnail, id } =
