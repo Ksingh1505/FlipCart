@@ -1,5 +1,4 @@
 import React from "react";
-
 const PdpSkeleton = () => {
   return (
     <div className="animate-pulse max-w-7xl mx-auto px-6 py-10">
