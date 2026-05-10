@@ -6,7 +6,6 @@ import ProductCardSkeleton from "../Components/ProductCardSkeleton";
 import ProductCard from "../Components/ProductCard";
 import UseGetProductsByCategory from "../Hooks/UseProductCategory";
 
-
 const ProductCategory = () => {
   const { theme } = useContext(ThemeContext);
   const { url: category } = useParams();
