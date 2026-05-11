@@ -12,5 +12,4 @@ function Star(props) {
     </svg>
   )
 }
-
 export default Star;
