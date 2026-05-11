@@ -8,7 +8,6 @@ const ThemeProvider = ({ children }) => {
   }, [theme]);
   const data = { theme, setTheme };
   return <ThemeContext.Provider value={data}>{children}</ThemeContext.Provider>;
-  
 };
 
 export default ThemeProvider;
