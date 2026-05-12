@@ -20,6 +20,7 @@ const ProductCard = ({ data }) => {
       <div
         onClick={(e) => {
           // e.stopPropagation();
+          
           e.preventDefault()
           handleWishlist();
         }}
